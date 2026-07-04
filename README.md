@@ -1,4 +1,119 @@
-# CS-370-Current-Emerging-Trends
-In this project, I developed and refined a Pirate Intelligent Agent using reinforcement learning principles. The provided starter code included the environment setup, reward structure, and some initial framework for the agent’s decision-making process. I expanded on this by implementing the learning algorithm that allowed the agent to improve its strategy over time. Specifically, I modified the Q-learning function, adjusted hyperparameters such as the learning rate and exploration rate, and analyzed the results through data visualizations. These enhancements allowed the agent to make better choices and demonstrate measurable improvement in performance across multiple training iterations.
-Throughout this course, I learned how reinforcement learning fits into the broader discipline of computer science. Computer scientists design intelligent systems that can reason, adapt, and optimize — skills that are vital in fields like automation, robotics, and data-driven decision-making. This project helped me think like a computer scientist by approaching the problem systematically: defining objectives, experimenting with parameters, evaluating outcomes, and iterating on improvements. It reinforced that problem-solving in computer science is not just about coding, but about using data and logic to create systems that learn and evolve.
-Ethically, I recognized the importance of transparency, accountability, and fairness in AI design. Intelligent agents must be trained responsibly to avoid biased outcomes or unintended behaviors, especially when applied to real-world problems. As a future professional, I plan to prioritize ethical data use, clear documentation, and inclusive design practices to ensure that my AI systems serve both the user and the organization responsibly.
+# Deep Q-Learning Treasure Hunt Agent
+
+## Overview
+
+This project demonstrates the implementation of a **Deep Q-Learning reinforcement learning agent** developed in Python. The agent learns to navigate a maze environment by interacting with its surroundings, receiving rewards and penalties, and improving its decisions over repeated training episodes.
+
+The project was completed as part of Southern New Hampshire University's **CS-370: Current and Emerging Trends in Computer Science** course and focuses on artificial intelligence, machine learning, and autonomous decision-making.
+
+---
+
+## Business Problem
+
+Many real-world systems require intelligent decision-making in environments where the optimal solution is not known beforehand. Reinforcement learning provides a method for training an agent to make increasingly effective decisions through experience.
+
+Applications include:
+
+* Warehouse automation
+* Robotics
+* Autonomous vehicles
+* Logistics optimization
+* Manufacturing process improvement
+* Route optimization
+* Intelligent recommendation systems
+
+---
+
+## Project Objectives
+
+The primary objectives of this project were to:
+
+* Develop a Deep Q-Learning agent capable of solving a maze.
+* Train the model using rewards and penalties.
+* Balance exploration and exploitation during learning.
+* Evaluate model performance over multiple training episodes.
+* Analyze how parameter tuning affects learning efficiency.
+
+---
+
+## Technologies Used
+
+* Python
+* TensorFlow
+* Keras
+* NumPy
+* Jupyter Notebook
+* Deep Q-Learning
+* Reinforcement Learning
+
+---
+
+## Skills Demonstrated
+
+* Artificial Intelligence
+* Machine Learning
+* Reinforcement Learning
+* Python Programming
+* Model Evaluation
+* Hyperparameter Tuning
+* Algorithm Optimization
+* Data Analysis
+* Problem Solving
+
+---
+
+## Repository Structure
+
+```text
+├── README.md
+├── requirements.txt
+├── notebooks/
+│   └── Meeks_Makayla_ProjectTwo.html
+├── docs/
+│   └── project-summary.md
+└── images/
+```
+
+---
+
+## Results
+
+The reinforcement learning agent successfully improved its navigation strategy throughout training by learning from previous experiences.
+
+Key accomplishments include:
+
+* Implemented a Deep Q-Learning algorithm.
+* Tuned learning and exploration parameters.
+* Evaluated model performance across training iterations.
+* Demonstrated improved autonomous decision-making through reinforcement learning.
+
+---
+
+## Future Improvements
+
+Potential enhancements include:
+
+* Compare multiple learning rates.
+* Analyze different exploration strategies.
+* Visualize reward progression during training.
+* Track convergence rates.
+* Add additional evaluation metrics.
+* Convert the notebook into a standalone Python application.
+
+---
+
+## Lessons Learned
+
+This project strengthened my understanding of reinforcement learning, artificial intelligence, model optimization, and ethical AI development. It also reinforced the importance of iterative experimentation, evaluating model performance, and making data-driven improvements.
+
+---
+
+## Author
+
+**Makayla Meeks**
+
+Bachelor of Science in Computer Science
+Southern New Hampshire University
+
+Interested in Data Analytics, IT Analysis, Artificial Intelligence, and Business Intelligence.
+
